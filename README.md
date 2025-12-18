@@ -28,7 +28,7 @@ The project supports:
 
 ### 1️⃣ Install dependencies
 ```bash
-pip install torch numpy
+pip install -r requirements.txt
 ```
 
 > Python 3.9+ recommended
