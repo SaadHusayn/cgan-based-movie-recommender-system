@@ -36,15 +36,7 @@ pip install torch numpy
 ---
 
 ### 2️⃣ Dataset setup
-Place the MovieLens 100K zip file in the project directory **or** extract it so that:
-
-```
-ml-100k/
- ├── u1.base
- ├── u1.test
- ├── u.item
- └── ...
-```
+Movielens dataset ml-100k already setup. See ml-100k-README for details about the datset.
 
 ---
 
