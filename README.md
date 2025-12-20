@@ -13,6 +13,14 @@ The project supports:
 
 ---
 
+## 🌐 Live Demo
+
+The project is deployed and available at:
+
+👉 **[https://movie-recommender-cgan.streamlit.app/](https://movie-recommender-cgan.streamlit.app/)**
+
+---
+
 ## 📌 High-Level Overview
 
 - **Domain**: Recommender Systems  
@@ -42,20 +50,11 @@ Movielens dataset ml-100k already setup. See ml-100k-README for details about th
 
 ### 3️⃣ Run the project
 
-#### Normal training + recommendations
 ```bash
-python main.py --epochs 10 --k 10
+streamlit run app.py
 ```
 
-#### Training with an interactive new user
-```bash
-python main.py --epochs 10 --k 10 --interactive_new_user
-```
-
-You will be prompted to:
-- search movies by title,
-- rate movies (1–5),
-- and receive Top-K recommendations after training.
+This will start the Streamlit web application locally at `http://localhost:8501`.
 
 ---
 
